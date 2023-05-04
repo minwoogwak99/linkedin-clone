@@ -104,13 +104,15 @@ const Section = styled.section`
 const Hero = styled.div`
   width: 100%;
   display: flex;
+  align-items: center;
   @media (max-width: 768px) {
     flex-direction: column;
   }
   h1 {
     width: 50%;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 200;
+    margin-bottom: 20px;
     @media (max-width: 768px) {
       text-align: center;
       font-size: 20px;
@@ -120,7 +122,7 @@ const Hero = styled.div`
 
   img {
     /* z-index: -1; */
-    width: 700px;
+    width: 500px;
     height: 700px;
     /* position: absolute; */
     bottom: -200px;
@@ -137,7 +139,7 @@ const Hero = styled.div`
 
 const Form = styled.div`
   width: 300px;
-  margin-top: 100px;
+  margin-top: 50px;
 `;
 
 const Google = styled.button`
@@ -151,7 +153,7 @@ const Google = styled.button`
 
   vertical-align: middle;
   z-index: 0;
-  transition-duration: 100ms;
+  transition-duration: 200ms;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.6);
 
